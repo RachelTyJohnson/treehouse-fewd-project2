@@ -5,28 +5,30 @@
   <title>Rachel Johnson Portfolio - FEWD Project 2</title>
   <link rel="icon" type="image/png" href="favicon.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
   <header>
-    <h1>Rachel Johnson</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="introduction">
+    <div class="clearfix">
+      <h1>Rachel Johnson</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="introduction clearfix">
       <img src="images/responsive-layout-profile.png" alt="Profile Photo of Rachel Johnson" />
       <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web development at Treehouse and am excited to put all my skills to use!</p>
     </div>
   </header>
 
-  <main>
+  <main class="clearfix portfolioitems">
     <h2 id="portfolio">Portfolio</h2>
     <article>
       <img src="images/portfolio-1.png" alt="Marketing Page Image" />
@@ -62,7 +64,7 @@
 
   <footer>
     <h2 id="contact">Contact</h2>
-    <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+    <p class="footertext">If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
     <p>Phone <strong>+1&lpar;111&rpar; 555-1234</strong></p>
     <p>Email <strong>email@yoursite.com</strong></p>
 
@@ -70,6 +72,11 @@
     <div class="bottom-nav clearfix">
       <span class="footer-name">Rachel Johnson</span>
       <span class="footer-backtotop"><a href="#">Back to Top</a></span>
+      <ul class="footer-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </div>
   </footer>
 
