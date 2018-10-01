@@ -1,7 +1,123 @@
 /*General*/
 * {
   font-family: 'Open Sans', sans-serif;
-  box-sizing: border-box;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  color: #444;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+img {
+  max-width: 100%;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*Layout*/
+header,
+footer {
+  background-color: #fafafa;
+  padding: 10px;
+}
+
+header h1 {
+  padding: 15px 0;
+}
+
+header ul {
+  list-style: none;
+}
+
+header ul li {
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: white;
+  padding: 10px;
+  margin: 7px 0;
+}
+
+header .introduction img {
+  width: 75%;
+  margin: 30px 0;
+}
+
+header .introduction p {
+  color: #666;
+  padding: 0 15px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  text-transform: uppercase;
+  margin: 50px auto;
+  font-size: 0.9em;
+}
+
+main {
+  margin: 0 15px;
+}
+
+main article {
+  margin: 50px 0;
+}
+
+main article h3 {
+  margin: 15px 0;
+}
+
+footer h2 {
+  margin-bottom: 30px;
+}
+
+footer p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+footer hr {
+  margin-top: 50px;
+  border: 0.5px #aaa solid;
+  margin-bottom: 20px;
+}
+
+footer strong {
+  color: #666;
+  margin-left: 15px;
+}
+
+footer .bottom-nav {
+  margin-bottom: 10px;
+}
+
+footer .bottom-nav span {
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+footer .footer-name {
+  float: left;
+}
+
+footer .footer-backtotop {
+  float: right;
+  text-transform: uppercase;
 }
 
 /*Breakpoint 768px*/
