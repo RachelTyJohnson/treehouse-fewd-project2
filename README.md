@@ -1,2 +1,2 @@
-# treehouse-fewd-project2
+# Treehouse Front End Web Development Project 2
 Mobile-first Responsive Layout
